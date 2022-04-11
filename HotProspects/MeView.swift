@@ -25,9 +25,11 @@ struct MeView: View {
                     .font(.title)
                 
                 TextField("Email address", text: $emailAddress)
-                    .textContentType(.emailAddress)
                     .font(.title)
-                
+                    .textContentType(.emailAddress)
+                    .textInputAutocapitalization(.never)
+                    .disableAutocorrection(true)
+                    
                 Image(uiImage: qrCode)
                     .resizable()
                     .interpolation(.none)

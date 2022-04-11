@@ -26,6 +26,7 @@
 		81B7615D2801D64E002D4A1D /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7615C2801D64E002D4A1D /* Prospect.swift */; };
 		81B7616028020911002D4A1D /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 81B7615F28020911002D4A1D /* CodeScanner */; };
 		81B7616228023677002D4A1D /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7616128023677002D4A1D /* ImageSaver.swift */; };
+		81B7616428034223002D4A1D /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7616328034223002D4A1D /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		81B7615A2801D2C9002D4A1D /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		81B7615C2801D64E002D4A1D /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		81B7616128023677002D4A1D /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		81B7616328034223002D4A1D /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				81B761342800D309002D4A1D /* HotProspectsApp.swift */,
+				81B7616328034223002D4A1D /* FileManager.swift */,
 				81B7616128023677002D4A1D /* ImageSaver.swift */,
 				81B7615C2801D64E002D4A1D /* Prospect.swift */,
 				81B761362800D309002D4A1D /* ContentView.swift */,
@@ -203,6 +206,7 @@
 				81B761372800D309002D4A1D /* ContentView.swift in Sources */,
 				81B761502800FBFE002D4A1D /* SwipeActionsToList.swift in Sources */,
 				81B7614A2800DBE2002D4A1D /* ResultTypeExplanation.swift in Sources */,
+				81B7616428034223002D4A1D /* FileManager.swift in Sources */,
 				81B7616228023677002D4A1D /* ImageSaver.swift in Sources */,
 				81B761352800D309002D4A1D /* HotProspectsApp.swift in Sources */,
 				81B7614E2800FA03002D4A1D /* ContextMenuExplanation.swift in Sources */,
